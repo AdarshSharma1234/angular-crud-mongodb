@@ -4,7 +4,7 @@ import { MainComponent } from './main/main.component';
 import { ItemsComponent } from './items/items.component';
 
 const routes: Routes = [
-  // {path:'',component:ItemsComponent},
+  {path:'app-items',component:ItemsComponent},
   { path: 'app-main', component: MainComponent },
   // other routes
   ];
